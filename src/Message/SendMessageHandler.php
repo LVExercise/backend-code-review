@@ -12,7 +12,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * TODO: Cover with a test
  */
-class SendMessageHandler
+readonly class SendMessageHandler
 {
     public function __construct(private EntityManagerInterface $manager)
     {

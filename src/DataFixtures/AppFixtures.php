@@ -11,6 +11,9 @@ use function Psl\Iter\random;
 
 class AppFixtures extends Fixture
 {
+    /**
+     * COMMENT: could've renamed this to MessageFixtures but decided to leave as it is since we've used it once, and it's only one Fixture in the directory
+     */
     public function load(ObjectManager $manager): void
     {
         $faker = Factory::create();
